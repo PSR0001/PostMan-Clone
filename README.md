@@ -33,8 +33,8 @@ ___Just install Live Server from VS Code extensions, open the repository on VS c
 
 
 ## **Projects Picture :**
- <img alt="POSTONE" src="./GitHub-Pictures/POSTONE.png" />
- <img alt="POSTTWO" src="./GitHub-Pictures/POSTTWO.png" />
+ <img alt="POSTONE" src="POSTONE.png" />
+ <img alt="POSTTWO" src="POSTTWO.png" />
 <br>
 
 ## **Contribution**
