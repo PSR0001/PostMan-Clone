@@ -32,15 +32,15 @@ jsonRadio.addEventListener('click', ()=>{
 let addParam = document.getElementById('addParam')
 addParam.addEventListener('click', ()=>{
    let params=document.getElementById('params')
-    let string = `  <div class="row my-3">
+    let string = `  <div class="form-row my-2">
                     <label class="col-form-label col-sm-2 " for="inputEmail4">Parameter ${count+2}</label>
-                    <div class=" col-md-4">
+                    <div class=" col-md-4 p-1">
                         <input type="text" class="form-control" id="parameterKey${count+2}" placeholder="Parameter ${count+2} Key">
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 p-1">
                         <input type="text" class="form-control" id="parameterValue${count+2}" placeholder="Parameter ${count+2} Value">
                     </div>
-                    <button class="deleteParam my-4 btn btn-primary"></button>
+                    <button class="deleteParam my-4 btn btn-primary">Delete</button>
                 </div>`
 
     let paramsElement = getDivOneByOne(string);
@@ -90,10 +90,10 @@ submit.addEventListener('click', ()=>{
 
      
     // log on the value in console for debuging
-    console.log(url)
-    console.log(requestType)
-    console.log(contentType)
-    console.log(Data)
+    // console.log(url)
+    // console.log(requestType)
+    // console.log(contentType)
+    // console.log(Data)
 
     // using fetch api for testing get request
      if (requestType == 'GET') {
